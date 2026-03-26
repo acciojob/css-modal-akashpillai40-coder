@@ -1,1 +1,43 @@
-/*  your css code here. If applicable */
+/* Hide modal initially */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+/* Modal box */
+.modal-content {
+  width: 500px;
+  margin: 100px auto;
+  overflow: hidden;
+  background:white;
+}
+
+/* Header */
+.modal-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+	
+  padding: 10px;
+  background: lightblue;
+}
+
+/* Close button */
+.close-modal {
+  border: none;
+  background-color:aliceblue;
+	cursor:pointer;
+	font-size:20px;
+}
+
+/* Body */
+.modal-body {
+  padding: 15px;
+	border:1px dotted black;
+	text-align:center;
+}
